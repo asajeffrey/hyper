@@ -1,6 +1,6 @@
 mod buf;
 pub(crate) mod drain;
-mod exec;
+pub mod exec;
 pub(crate) mod io;
 mod lazy;
 mod never;
